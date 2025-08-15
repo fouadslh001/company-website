@@ -160,7 +160,7 @@ function showVideoError() {
         errorDiv.className = 'video-error';
         errorDiv.innerHTML = `
             <h3>Video Unavailable</h3>
-            <p>The background video could not be loaded. The page will continue to function normally.</p>
+            <p>The Background video could not be loaded. The page will continue to function normally.</p>
         `;
         videoContainer.appendChild(errorDiv);
     }
