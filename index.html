@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -20,7 +22,7 @@
                 <div class="nav-menu" id="nav-menu">
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#services" class="nav-link">Services</a>
-                    <a href="/company-website/pages/about.html" class="nav-link">About</a>
+                    <a href="/pages/about.html" class="nav-link">About</a>
                     <a href="#contact" class="nav-link">Contact</a>
                 </div>
                 <div class="nav-toggle" id="nav-toggle">
@@ -33,21 +35,24 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-video">
-            <video id="hero-video" autoplay muted loop poster="">
-                <source src="assets/images/DSP-Invest-Global-Import.mp4" type="video/mp4">
-                <p>Your browser does not support the video tag.</p>
-            </video>
-            <div class="video-overlay"></div>
-        </div>
+
+
+    <section id="home" class="page-hero-about hero">
+        <!-- Background video -->
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="../assets/images/DSP-Invest-Global-Import.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+        <!-- Gradient overlay -->
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-text">
                 <h4 class="hero-subtitle">Make some <span class="highlight">IMPACT</span> with us</h4>
                 <h1 class="hero-title">DSP INVEST</h1>
                 <p class="hero-description">
-                    We are your partner for global sourcing and international trade. We specialise in providing 
-                    high-quality products tailored to meet the evolving needs of our customers. Our dedication 
+                    We are your partner for global sourcing and international trade. We specialise in providing
+                    high-quality products tailored to meet the evolving needs of our customers. Our dedication
                     to excellence and customer satisfaction sets us apart in the marketplace.
                 </p>
             </div>
@@ -62,19 +67,27 @@
             <div class="welcome-content">
                 <div class="welcome-text">
                     <p>
-                        We are a dynamic and committed investment firm, specialising in the identification and management 
-                        of promising investment opportunities. Our mission is to generate strong returns for our investments 
-                        while contributing to economic growth and development. As an experienced and passionate team, we focus 
-                        on in-depth analysis and the search for innovative investment opportunities. A trustworthy company for 
-                        our customers and an established trading partner. With our products, we reach consumers all over the 
-                        world and thus position ourselves time and again as a leading supplier in numerous industries.
+                        We are a dynamic and committed investment firm, specialising in the identification and
+                        management
+                        of promising investment opportunities. Our mission is to generate strong returns for our
+                        investments
+                        while contributing to economic growth and development. As an experienced and passionate
+                        team, we focus
+                        on in-depth analysis and the search for innovative investment opportunities. A trustworthy
+                        company for
+                        our customers and an established trading partner. With our products, we reach consumers all
+                        over the
+                        world and thus position ourselves time and again as a leading supplier in numerous
+                        industries.
                     </p>
                     <ul>
-                        <li>We are continuously expanding our portfolio of high-quality products in order to always meet the needs of consumers.</li>
+                        <li>We are continuously expanding our portfolio of high-quality products in order to always
+                            meet the needs of consumers.</li>
                     </ul>
                 </div>
                 <div class="ceo-section">
-                    <img src="assets/images/dsp-invest-company-ceo.jpg" alt="Pedro Da Silva Pinto - CEO" class="ceo-image">
+                    <img src="assets/images/dsp-invest-company-ceo.jpg" alt="Pedro Da Silva Pinto - CEO"
+                        class="ceo-image">
                     <div class="ceo-info">
                         <p class="ceo-title">Representative Director Chairman & President (CEO)</p>
                         <h4 class="ceo-name">Pedro Da Silva Pinto</h4>
@@ -89,48 +102,54 @@
         <div class="container">
             <h2 class="section-title white">Our Offer</h2>
             <p class="offer-description">
-                A Luxembourg-based company acting in Renewable energy, Electric vehicle sales & leasing, 
-                product sourcing, import export, logistics and distribution, we offer our customers a 
-                continuously growing variety of products that come from tested suppliers and convince 
-                through excellent quality. We are continuously expanding our portfolio of high-quality 
-                products in order to always meet the needs of consumers. We focus on products that enhance 
+                A Luxembourg-based company acting in Renewable energy, Electric vehicle sales & leasing,
+                product sourcing, import export, logistics and distribution, we offer our customers a
+                continuously growing variety of products that come from tested suppliers and convince
+                through excellent quality. We are continuously expanding our portfolio of high-quality
+                products in order to always meet the needs of consumers. We focus on products that enhance
                 modern living for everyone who needs good quality at a good price
             </p>
-            
+
             <div class="services-grid">
                 <div class="service-card">
                     <h3>Sourcing & Procurement</h3>
-                    <p>Product & supplier sourcing, quality control, compliance, international logistics, distribution</p>
+                    <p>Product & supplier sourcing, quality control, compliance, international logistics,
+                        distribution</p>
                     <a href="pages/sourcing.html" class="btn-details">View Details</a>
                 </div>
-                
+
                 <div class="service-card">
                     <h3>Renewable Energy</h3>
-                    <p>Solar Kit Solutions both for balcony and the ground-offering convenience and versatility. Elevate your off-grid adventures with our innovative solar products.</p>
+                    <p>Solar Kit Solutions both for balcony and the ground-offering convenience and versatility.
+                        Elevate your off-grid adventures with our innovative solar products.</p>
                     <a href="pages/renewable-energy.html" class="btn-details">View Details</a>
                 </div>
-                
+
                 <div class="service-card">
                     <h3>Comprehensive solutions for sustainable e-mobility</h3>
-                    <p>Long-term leasing, short-term rental, sale and maintenance of alternative zero-emission vehicles.</p>
+                    <p>Long-term leasing, short-term rental, sale and maintenance of alternative zero-emission
+                        vehicles.</p>
                     <a href="pages/electric-vehicle-sales.html" class="btn-details">View Details</a>
                 </div>
-                
+
                 <div class="service-card">
                     <h3>Import-export & wholesale</h3>
-                    <p>With over 20 years of experience, we are your partner for exclusive import, export & wholesale</p>
+                    <p>With over 20 years of experience, we are your partner for exclusive import, export &
+                        wholesale</p>
                     <a href="pages/wholesale-partner-import-export.html" class="btn-details">View Details</a>
                 </div>
-                
+
                 <div class="service-card">
                     <h3>Pharma & Health Care</h3>
-                    <p>We are a valued partner of associations, government institutions, cultural institutions and online retailers in the medical field</p>
+                    <p>We are a valued partner of associations, government institutions, cultural institutions and
+                        online retailers in the medical field</p>
                     <a href="pages/pharmaceuticals-healthcare.html" class="btn-details">View Details</a>
                 </div>
-                
+
                 <div class="service-card">
                     <h3>Real Estate</h3>
-                    <p>Interior design, Development of premises, Sales & Letting, Construction project management</p>
+                    <p>Interior design, Development of premises, Sales & Letting, Construction project management
+                    </p>
                     <a href="pages/real-estate.html" class="btn-details">View Details</a>
                 </div>
             </div>
@@ -144,23 +163,32 @@
                 <div class="about-text">
                     <h2 class="section-title">Who We Are</h2>
                     <p>
-                        DSP Invest is a global trading firm specialising in the import and export of various products. 
-                        With a strong presence in the international market, the company facilitates trade between businesses 
-                        in different countries, helping them source high-quality products and expand their reach. The company 
-                        prides itself on its extensive network of suppliers, manufacturers, and distributors worldwide, enabling 
-                        it to offer a diverse range of products across different industries. DSP Invest has a 12-year presence 
-                        in Asia and has been able to nurture a reliable network of trustworthy manufacturers, each carefully 
+                        DSP Invest is a global trading firm specialising in the import and export of various
+                        products.
+                        With a strong presence in the international market, the company facilitates trade between
+                        businesses
+                        in different countries, helping them source high-quality products and expand their reach.
+                        The company
+                        prides itself on its extensive network of suppliers, manufacturers, and distributors
+                        worldwide, enabling
+                        it to offer a diverse range of products across different industries. DSP Invest has a
+                        12-year presence
+                        in Asia and has been able to nurture a reliable network of trustworthy manufacturers, each
+                        carefully
                         selected for their professionalism and the quality of their products.
                     </p>
                 </div>
                 <div class="about-text">
                     <h2 class="section-title">What We Do</h2>
                     <p>
-                        DSP Invest emphasises building strong and long-lasting relationships with both suppliers and customers. 
-                        By understanding the specific requirements of each client, the company aims to provide tailored solutions 
+                        DSP Invest emphasises building strong and long-lasting relationships with both suppliers and
+                        customers.
+                        By understanding the specific requirements of each client, the company aims to provide
+                        tailored solutions
                         and match them with suitable partners to meet their procurement or distribution needs.
                     </p>
-                    <img src="assets/images/We-provide-solutions-to-grow-your-business.jpg" alt="We provide solutions to grow your business" class="about-image">
+                    <img src="assets/images/We-provide-solutions-to-grow-your-business.jpg"
+                        alt="We provide solutions to grow your business" class="about-image">
                 </div>
             </div>
         </div>
@@ -171,13 +199,14 @@
         <div class="container">
             <h2 class="section-title">Our Promise</h2>
             <p>
-                DSP Invest stands for reliability, professional competence and an outstanding level of service. 
-                For more than 20 years it has been our mission to build long-term sales partnerships in order 
+                DSP Invest stands for reliability, professional competence and an outstanding level of service.
+                For more than 20 years it has been our mission to build long-term sales partnerships in order
                 to sustainably improve the quality of life of our customers.
             </p>
             <p>
-                Our experience in various market sectors and areas makes our company a reliable partner. Since 2018, 
-                together with our customers' valued support, we have been able to keep an eye on future global challenges, 
+                Our experience in various market sectors and areas makes our company a reliable partner. Since 2018,
+                together with our customers' valued support, we have been able to keep an eye on future global
+                challenges,
                 hence ensuring the certainty of our long term mutual success.
             </p>
         </div>
@@ -188,82 +217,84 @@
         <div class="container">
             <h2 class="section-title">Invested capital & commercial relations</h2>
             <p class="brands-description">
-                As an expanding company in international distribution, we offer our customers a continuously growing 
-                variety of products that come from tested suppliers and convince through excellent quality. We are 
-                continuously expanding our portfolio of high-quality products in order to always meet the needs of consumers.
+                As an expanding company in international distribution, we offer our customers a continuously growing
+                variety of products that come from tested suppliers and convince through excellent quality. We are
+                continuously expanding our portfolio of high-quality products in order to always meet the needs of
+                consumers.
             </p>
-            
+
             <div class="brands-grid">
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-11-300x163.png" alt="ABSAAR">
                     <h4>ABSAAR</h4>
                     <p>Delivering reliable and efficient power solutions</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-12-300x163.png" alt="In.Pro">
                     <h4>In.Pro</h4>
                     <p>Sourcing, Distribution, Supplying innovative tools</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-15-300x163.png" alt="ABSAAR Solar">
                     <h4>ABSAAR Solar</h4>
                     <p>Energy solutions adapted to self-consumption</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-16-300x163.png" alt="Instyle ENERGY">
                     <h4>Instyle ENERGY</h4>
                     <p>You've got the Power! Solar Gear For Every Adventure</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-18.png" alt="Sevic">
                     <h4>Sevic</h4>
                     <p>Compact electric utility vehicles</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-19.png" alt="Orten">
                     <h4>Orten</h4>
                     <p>Robust and reliable electric utility vehicles.</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-31.png" alt="Promopharm">
                     <h4>Promopharm</h4>
                     <p>Serving internationally renowned partners in the pharmaceutical field</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/dyna.png" alt="Dynapharm">
                     <h4>Dynapharm</h4>
                     <p>Your local partner for health products since 2003</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-13.png" alt="BactoAttaq">
                     <h4>BactoAttaq</h4>
                     <p>Antimicrobial surface protection against bacteria and viruses.</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-21.png" alt="Euro-Tech">
                     <h4>Euro-Tech</h4>
                     <p>Interior design, Consultancy, Construction project management, Premises design</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-22-300x163.png" alt="Euro-Recup">
                     <h4>Euro-Recup</h4>
                     <p>Your partner for moving services, house clearance and renovation of premises</p>
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/images/logos-dsp-company-brands-23.png" alt="Euro-Lift">
                     <h4>Euro-Lift</h4>
-                    <p>Lift trucks with operator for individuals and professionals for removals and transport of materials.</p>
+                    <p>Lift trucks with operator for individuals and professionals for removals and transport of
+                        materials.</p>
                 </div>
             </div>
         </div>
@@ -274,11 +305,11 @@
         <div class="container">
             <h2 class="section-title">Large, diversified and loyal customer base</h2>
             <p>
-                A trustworthy company for our customers and an established trading partner. With our products, 
-                we reach consumers all over the world and thus position ourselves time and again as a leading 
+                A trustworthy company for our customers and an established trading partner. With our products,
+                we reach consumers all over the world and thus position ourselves time and again as a leading
                 supplier in numerous industries.
             </p>
-            
+
             <div class="customers-grid">
                 <img src="assets/images/bricorama.png" alt="Bricorama">
                 <img src="assets/images/Logotype-vertugo-705x233-copy.png" alt="Vertugo">
@@ -293,7 +324,7 @@
                 <img src="assets/images/brico-cash.png" alt="Brico Cash">
                 <img src="assets/images/brico_marche-v3.png" alt="Brico Marche">
             </div>
-            
+
             <div class="view-all-container">
                 <a href="pages/customers.html" class="btn-view-all">View All</a>
             </div>
@@ -307,20 +338,20 @@
                 <div class="contact-item">
                     <h3>Our Office</h3>
                     <p>DSP INVEST HQ<br>
-                    9, rue de Chemin de Fer<br>
-                    L-8057 BERTRANGE Luxembourg</p>
+                        9, rue de Chemin de Fer<br>
+                        L-8057 BERTRANGE Luxembourg</p>
                 </div>
-                
+
                 <div class="contact-item">
                     <h3>Contact Us</h3>
                     <p>+352 26 31 31 38<br>
-                    info@dspinvest.lu</p>
+                        info@dspinvest.lu</p>
                 </div>
-                
+
                 <div class="contact-item">
                     <h3>Office Hours</h3>
                     <p>Mon-Fri: 9am – 5pm<br>
-                    Sat-Sun: Closed</p>
+                        Sat-Sun: Closed</p>
                 </div>
             </div>
         </div>
@@ -338,4 +369,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
